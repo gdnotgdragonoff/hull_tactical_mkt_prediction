@@ -1,1 +1,1 @@
-The original data can be downloaded from the official kaggle website: (https://www.kaggle.com/competitions/hull-tactical-market-prediction/data)
+The original data can be downloaded from the official kaggle website: https://www.kaggle.com/competitions/hull-tactical-market-prediction/data
