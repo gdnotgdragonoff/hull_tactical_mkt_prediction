@@ -1,5 +1,63 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows
+# -----------------------------------
+# Python cache / compiled files
+# -----------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Common editor folders
+.vscode/
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# -----------------------------------
+# Project-specific directories to ignore
+# -----------------------------------
+
+# Raw data (never push to GitHub)
+data/*
+!data/.gitkeep
+
+# Local results (plots, csv, excel, json reports)
+results/*
+!results/.gitkeep
+results/figures/*
+results/tables/*
+results/backtest_reports/*
+results/logs/*
+
+# Model files (joblib, pickle)
+artifacts/*
+!artifacts/.gitkeep
+
+# Config output (if you write JSON configs during training)
+configs/*.json
+
+# -----------------------------------
+# Outputs created by scripts or notebooks
+# -----------------------------------
+*.xlsx
+*.csv
+*.png
+*.pdf
+*.json
+*.html
+
+# Model and vectorizer files
+*.joblib
+*.pkl
+
+# Large log files
+*.log
 
 ### Windows ###
 # Windows thumbnail cache files
