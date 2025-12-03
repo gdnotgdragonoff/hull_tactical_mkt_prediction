@@ -54,11 +54,12 @@ hull_tactical_market_prediction/
 │       └─ metrics.py
 │
 ├─ scripts/
-│   ├─ run_cleaning.py
+│   ├─ run_preprocessing.py
 │   ├─ run_feature_selection.py
 │   ├─ run_feature_engineering.py
 │   ├─ run_training.py
 │   └─ run_backtest.py
+│   └─ run_full_pipeline.py
 │
 ├─ configs/
 │   ├─ base_config.yml
